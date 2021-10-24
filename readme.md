@@ -6,7 +6,7 @@
 
 2. Clone this repo
 
-    git clone https://github.com/rsaulitis/kodekloud_ansible_for_all_tasks.git
+    git clone <https://github.com/rsaulitis/kodekloud_ansible_for_all_tasks.git>
 
 3. CD to cloned git folder
 4. Run setup script
