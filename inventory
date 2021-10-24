@@ -1,0 +1,25 @@
+[apps]
+stapp01     ansible_user=tony       ansible_password=Ir0nM@n        ansible_become_pass="{{ ansible_password }}"
+stapp02     ansible_user=steve      ansible_password=Am3ric@        ansible_become_pass="{{ ansible_password }}"
+stapp03     ansible_user=banner     ansible_password=BigGr33n       ansible_become_pass="{{ ansible_password }}"
+
+[db]
+stdb01      ansible_user=peter      ansible_password=Sp!dy          ansible_become_pass="{{ ansible_password }}"
+
+[storage]
+ststor01    ansible_user=natasha    ansible_password=Bl@kW          ansible_become_pass="{{ ansible_password }}"
+
+[lbl]
+stlb01      ansible_user=loki       ansible_password=Mischi3f       ansible_become_pass="{{ ansible_password }}"
+
+[backup]
+stbkp01     ansible_user=clint      ansible_password=H@wk3y3        ansible_become_pass="{{ ansible_password }}"
+
+[mail]
+stmail01    ansible_user=groot      ansible_password=Gr00T123       ansible_become_pass="{{ ansible_password }}"
+
+[jump]
+jump_host   ansible_user=thor       ansible_password=mjolnir123     ansible_become_pass="{{ ansible_password }}"
+
+[cicd]
+jenkins     ansible_user=jenkins    ansible_password=j@rv!s         ansible_become_pass="{{ ansible_password }}"
