@@ -13,4 +13,5 @@ Do not edit first 5 lines in playbook. Edit playbook for your task needs and run
     ansible-playbook playbook.yml --extra-vars "host=(hostname or host group from inventory) other_variable=foo"
 
 For example:
+
     ansible-playbook playbook.yml --extra-vars "host=stapp01 username=JohnDoe"
