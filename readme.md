@@ -1,9 +1,13 @@
 # For use on jump host when you whant to complete task with ansible not manually on each desired host
+Install git
+
+    sudo yum install -y git
 
 Clone this repo
 
     git clone https://github.com/rsaulitis/kodekloud_ansible_for_all_tasks.git
 
+CD to got folder
 Run setup script
 
     sudo sh ./setup.sh
