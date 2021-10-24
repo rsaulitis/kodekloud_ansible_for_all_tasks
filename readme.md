@@ -3,16 +3,16 @@
 1. Install git:
 
     echo "mjolnir123" | sudo -S -k yum install -y git
+  
+2. Install ansible:
 
-2. Clone this repo:
+    echo "mjolnir123" | sudo -S -k yum install -y ansible
+
+3. Clone this repo:
 
     git clone <https://github.com/rsaulitis/kodekloud_ansible_for_all_tasks.git>
 
-3. CD to cloned git folder
-  
-4. Run setup script:
-
-    echo "mjolnir123" | sudo -S -k sh ./setup.sh
+4. CD to cloned git folder
 
 5. Edit playbook for your task needs and run playbook. Host or Hosts on which to run tasks need to be parsed in command line or edited in playbook:
 
@@ -25,7 +25,7 @@ For example:
 Full example:
 
     echo "mjolnir123" | sudo -S -k yum install -y git
+    echo "mjolnir123" | sudo -S -k yum install -y ansible
     git clone https://github.com/rsaulitis/kodekloud_ansible_for_all_tasks.git
     cd kodekloud_ansible_for_all_tasks
-    sudo sh ./setup.sh
     ansible-playbook playbook.yml --extra-vars "host=stapp01 username=JohnDoe"
